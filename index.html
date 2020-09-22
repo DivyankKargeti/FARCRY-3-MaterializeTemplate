@@ -3,14 +3,15 @@
 	<head>
 		<title>MaterializeCSS | CC</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<!--Import Google Icon Font-->
+		<!--Import Google Material Icon Font-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!-- Compiled and minified CSS -->
+		<!-- Compiled and minified Materialize CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 		<style>
+			/*Common styling for all the sections*/
 			section{
 				width: 90%;
 				margin:auto;
@@ -36,6 +37,7 @@
 			<li><a href="badges.html">About</a></li>
 			<li><a href="collapsible.html">Contact</a></li>
 		</ul>
+
 		<!-- showcase carousel-->
 		<div class="carousel carousel-slider">
 			<a class="carousel-item"><img src="images/f1.jpg"></a>
@@ -48,9 +50,10 @@
 			<a class="carousel-item"><img src="images/f2.png"></a>
 			<a class="carousel-item" href="#three!"><img src="images/f4.jpg"></a>
 		</div>
+
 		<!--About-->
 		<section>
-			<h2 class="center-align">About Us</h2>
+			<h2 class="center-align red-text">About Us</h2>
 			<div class="row">
 				<div class="col m6 s12">
 					<img src="images/f4.jpg" class="responsive-img">
@@ -65,12 +68,13 @@
 				</div>
 			</div>
 		</section>
+
 		<!--Services-->
 		<section>
-			<h2 class="center-align">Services</h2>
+			<h2 class="center-align red-text">Services</h2>
 			<div class="row">
 				<div class="col m4 l4 s12">
-						<div class="card">
+						<div class="card hoverable">
 							<div class="card-image">
 								<img src="images/f3.jpg" class="responsive-img">
 								<span class="card-title"><b>FarCry3</b></span>
@@ -86,7 +90,7 @@
 				</div>
 
 				<div class="col m4 l4 s12">
-						<div class="card">
+						<div class="card hoverable">
 							<div class="card-image">
 								<img src="images/f3.jpg" class="responsive-img">
 								<span class="card-title"><b>FarCry3</b></span>
@@ -103,7 +107,7 @@
 				</div>
 
 				<div class="col m4 l4 s12">
-						<div class="card">
+						<div class="card hoverable">
 							<div class="card-image">
 								<img src="images/f3.jpg" class="responsive-img">
 								<span class="card-title"><b>FarCry3</b></span>
@@ -120,6 +124,150 @@
 			</div>
 			
 		</section>
+
+		<!--Gallery-->
+		<section>
+			<h2 class="center-align red-text">Gallery</h2>
+			<div class="row">
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f1.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+				<div class="col l4 m4 s12">
+					<img src="images/f4.jpg" class="responsive-img materialboxed" data-caption="Gallery Image">
+				</div>
+
+			</div>
+			
+		</section>
+
+		<!--Contact Form-->
+		<section>
+			<h2 class="center-align red-text">Contact Form</h2>
+			<div class="row">
+				<div class="col m6 l6 s12 offset-l3">
+					<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="text" class="validate" data-length="10">
+          <label for="mobile">Contact Number</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit" name="action" onclick="M.toast({html: 'Form Submitted'})">Submit
+    <i class="material-icons right">send</i>
+  </button>
+      </div>
+    </form>
+  </div>
+				</div>
+			</div>
+			
+		</section>
+
+
+		<!--footer-->
+		<footer class="page-footer #00695c teal darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text"><b>FARCRY<span style="color:#ff0000">3</span></b></h5>
+                <p class="grey-text text-lighten-4">Purchase <b>FARCRY<span style="color:#ff0000">3</span></b> before sale ends...</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">FARCRY</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">FARCRY2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">FARCRY3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">FARCRY4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright, <b>FARCRY<span style="color:#ff0000">3</span></b>
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
 		<!-- Floating Buttons-->
 		<div class="fixed-action-btn">
 			<a class="btn-floating btn-large #00695C">
@@ -143,6 +291,10 @@
 		indicators: true,});
 		//floating buttons
 		$('.fixed-action-btn').floatingActionButton();
+		//materialbox -->> for gallery click on img popup
+		$('.materialboxed').materialbox();
+		//Character counter for mobile number text input in form
+		$('input#mobile').characterCounter();
 		});
 		</script>
 	</body>
